@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.operadores;
 
 public class DesafioLogicos {
 
@@ -10,7 +10,7 @@ public class DesafioLogicos {
         // tomara um sorvete;
 
         boolean trabalhoTerca = true;
-        boolean trabalhoQuinta = false;
+        boolean trabalhoQuinta = true;
 
         boolean comprouTv55 = trabalhoTerca && trabalhoQuinta;
         boolean comprouTv32 = trabalhoTerca ^ trabalhoQuinta;
